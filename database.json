@@ -1,0 +1,136 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Bubblicious",
+            "price": "3.00",
+            "productTypeId": 1
+        },
+
+        {
+            "id": 2,
+            "name":"Sour Patch Kids",
+            "price": "5.00",
+            "productTypeId": 1
+        },
+
+        {
+            "id": 3,
+            "name": "Lemon Heads",
+            "price": "3.00",
+            "productTypeId": 2
+        },
+
+        {
+            "id": 4,
+            "name": "Nehi Peach",
+            "price": "7.00",
+            "productTypeId": 4
+
+        }
+    ],
+    "locations": [
+        {
+            "id": 1,
+            "address": "7002 Chestnut Ct",
+            "squareFootage": 100,
+            "handicapAccessible": "true"
+        },
+
+        {
+            "id": 2,
+            "address": "123 Happy Street",
+            "squareFootage": 300,
+            "handicapAccessible": "false"
+        },
+
+        {
+            "id": 3,
+            "address": "417 Sunshine Street",
+            "squareFootage": 600,
+            "handicapAccessible": "true"
+        },
+
+        {
+            "id": 4,
+            "address": "729 Odel Avenue",
+            "squareFootage": 700,
+            "handicapAccessible": "false"
+        }
+    ],
+    "employees": [
+        {
+            "id": 1,
+            "name": "Anna Lee",
+            "birthday": "October 17"
+        },
+
+        {
+            "id": 2,
+            "name": "Tatiana Rose",
+            "birthday": "April 17"
+        },
+
+        {
+            "id": 3,
+            "name": "Percy",
+            "birthday": "October 29"
+        },
+
+        {
+            "id": 4,
+            "name": "Terri Odel",
+            "birthday": "July 29"
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Hard Candy"
+        },
+
+        {
+            "id": 2,
+            "type": "Gum"
+        },
+
+        {
+            "id": 3,
+            "type": "Chocolate"
+        },
+
+        {
+            "id": 4,
+            "type": "Sodas"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1,
+            "name": "Rose Lee",
+            "address": "1017 Mango Avenue",
+            "locationId": 1
+        },
+
+        {
+            "id": 2,
+            "name": "Beijing Low",
+            "address": "215 Green Blvd",
+            "locationId": 2
+        },
+
+        {
+            "id": 3,
+            "name": "Taj Adib",
+            "address": "45 Second Avenue",
+            "locationId": 3
+        },
+
+        {
+            "id": 4,
+            "name": "Patricia Rain",
+            "address": "46 Happy Sunshine Street",
+            "locationId": 4
+        }
+    ]
+}
